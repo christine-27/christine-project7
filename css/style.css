@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+@font-face {
+  font-family:"LemonadeStand";
+  src: url("../css/font/LemonadeStand.otf") format("truetype");
+}
+@font-face {
+    font-family: "WinterCalligraphy";
+    src: url("../css/font/WinterCalligraphy.ttf") format("truetype");
+}
+body {
+    background-color: #f6f6f6;
+}
+header{
+    background: url(../img/navbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+header ul li {
+    padding: 0 30px;
+}
+nav.navigation {
+    padding: 20px 0;
+}
+ul.menu.navMenu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header a {
+    font-family: LemonadeStand;
+    font-size: 25px;
+    text-decoration: none;
+    color: #333333;
+}
+img.logo {
+    width: 200px;
+    height: auto;
+}
+img.logo1 {
+    width: 200px;
+    height: auto;
+
+}
+.nav-toggle {
+    display: none;
+}
+
+
+/*banner section*/
+#banner {
+    background: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+}
+#banner h1 {
+    font-size: 6vw;
+    font-family: WinterCalligraphy;
+    color: #fff;
+    text-align: center;
+    font-weight: inherit;
+}
+.col-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 85vh;
+}
+/*end banner section*/
+.col-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+.list-images {
+    width: calc(100% / 3);
+    margin: 0 20px;
+}
+img.galImg {
+    width: 100%;
+    height: auto;
+}
+
+/*about section*/
+#about {
+    background: url(../img/aboutBg.jpg);
+    background-repeat: no-repeat;
+    background-size: 66% 100%;
+    min-height: 72vh;
+    width: 100%;
+}
+#about h2 {
+    font-family: LemonadeStand;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+#about p {
+    font-family: Century Gothic;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.aboutCon {
+    padding: 50px 0;
+}
+.col-about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.wedding {
+    width: calc(100% / 2);
+}
+img.weddingImg {
+    height: 100%;
+    width: auto;
+}
+/*end aboutus*/
+
+#testimonials {
+    background: url(../img/walkingImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.imgLeft {
+    width: 47%;
+    background-color: #ffffff75;
+    text-align: center;
+    height: 100vh;
+    float: right;
+}
+.imgLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img.testimonialsImg {
+    width: 50%;
+    height: auto;
+}
+#testimonials p {
+    font-family: Century Gothic;
+    padding: 20px 50px;
+    font-size: 18px;
+}
+p.author {
+    font-weight: bold;
+}
+
+.bg {
+    background: url(../img/leftImg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 20px;
+}
+.bg1 {
+    background: url(../img/rightImg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 20px;
+}
+ .sizeBg {
+    width: 37vw;
+}
+.planlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+
+}
+#planning h4 {
+    font-family: LemonadeStand;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 0;
+    color: #696868;
+}
+#planning p {
+    font-family: Century Gothic;
+    font-size: 18px;
+    text-align: center;
+    color: #696868;
+    line-height: 1.6;
+}
+.planCon {
+    padding: 12%;
+}
+p.read {
+    padding: 15px;
+    font-weight: bolder;
+}
+
+
+/*Footer*/
+#footer {
+    background: url(../img/footerBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  #footer p {
+    font-family: Century Gothic;
+    font-size: 20px;
+    color: #fff;
+    padding: 12px 0;
+ }
+.fab {
+    font-family: 'Font Awesome 5 Brands';
+    color: #fff;
+    padding: 0 20px;
+}
+ .socialMedia {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.newsletter {
+    font-family: LemonadeStand;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+img.shape {
+    width: 100%;
+}
+
+input[type="text"] {
+    height: 35px;
+    width: 22%;
+    outline: none;
+    top: -10px;
+    position: relative;
+    font-family: Century Gothic;
+    padding: 0 10px;
+}
+input[type="button"] {
+    background: #efc5c4;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    top: -8px;
+    position: relative;
+    font-family: LemonadeStand;
+    letter-spacing: 2px;
+}
+img.logoFooter {
+    width: 15%;
+    height: auto;
+}
+.break {
+    display: none;
+}
+/*media query*/
+
+@media (max-width: 767px) {
+    #about h2 {
+        font-size: 30px;
+    }
+    input[type="text"] {
+        width: 90%;
+    }
+    .break {
+        display: block;
+    }
+    .newsletter {
+         padding: 50px 0;
+    }
+    .socialMedia {
+        padding-bottom: 50px;
+    }
+    .planlist {
+        padding: 50px 0px 0px 0px !important;
+    }
+    #banner h1 {
+        font-size: 35px;
+    }
+    .bg1.sizeBg {
+        position: relative;
+        top: -47px;
+    }
+    #planning .wddingTitle2 {
+        padding-top: 78px;
+    }
+    .fa-5x {
+        font-size: 3em;
+    }
+    #planning h4 {
+        font-size: 30px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .col-images {
+        display: block;
+    }
+    .list-images {
+        width: 100%;
+    }
+    .imgLeft {
+        width: 100%;
+    }
+    img.logo {
+        display: none;
+        visibility: hidden;
+    }
+    .menu {
+        float: right;
+        width: 100%;
+        display: none !important;
+        position: relative;
+    }
+    .nav-toggle .menu {
+        display: block;
+    }
+    header ul li {
+        display: block;
+        padding: 10px 0;
+        font-size: 20px;
+        text-align: center;
+    }
+    header ul li a {
+        color: #fff;
+    }
+    .headerTitle p {
+        font-size: 20px;
+    }
+    .navMenu {
+         position: absolute;
+        top: 146px;
+        background-color: #000000d4;
+        z-index: 999;
+        width: 80%;
+    }
+    .activeLi {
+        color: #ff9258;
+        border-left: none;
+        border-right: none;
+    }
+    header .navigation #navi ul {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        padding: 0; 
+    }
+    ul.menu.navMenu.menu-active {
+        display: block !important;
+    }
+    .nav-toggle{
+        display: block;
+        float: right;
+        top: 33px;
+        position: relative;
+        padding: 10px;
+        border: none;
+        background: #ffd00f;
+        color: #b10201;
+        font-weight: bolder;
+        outline: none;
+        cursor: pointer;
+    }
+    li:nth-child(3) {
+        display: none;
+    }
+    .list-images {
+        margin: 0;
+    }
+    #testimonials {
+        height: 100vh;
+    }
+    #testimonials p {
+        padding: 10px;
+    }
+    .imgLeft {
+        height: 100vh !important;
+    }
+    .bg {
+        background-position: center center;
+    }
+    .bg1 {
+        background-position: center center;
+    }
+    img.logoFooter {
+        width: 30%;
+    }
+}
+
+@media (max-width: 1024px) {
+    #about {
+        background-size: cover;
+    }
+    .col-about {
+        display: block;
+    }
+    .wedding {
+        width: 100%;
+    }
+    img.weddingImg {
+        height: auto;
+        width: 100%;
+    }
+    .aboutCon {
+        padding-top: 50px;
+    }
+    .planlist {
+         width: 100%; 
+        margin: 0;
+        display: block;
+    }
+    .sizeBg {
+        width: 100%;
+    }
+    .bg {
+        margin: 0;
+    }
+    .bg1 {
+        margin: 0;
+    }
+    #planning p {
+        text-align: left;
+    
+    }
+    #footer {
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    img.logoFooter {
+        width: 30%;
+    }
+    #footer p {
+        padding: 20px 0;
+    }
+}
+@media(min-width: 768px) and (max-width: 1024px) {
+    .imgLeft {
+        width: 60%;
+    }
+}
+
+@media (min-width: 768px) {
+    img.logo1 {
+    display: none;
+    }
+}
